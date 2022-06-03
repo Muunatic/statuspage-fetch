@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2021",
+      "outDir": "dist",
+      "lib": [
+          "ES2021",
+          "DOM"
+      ],
+      "alwaysStrict": true,
+      "allowJs": false,
+      "sourceMap": false,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true, 
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,1 @@
+export const fetch_api:string = 'https://<statuspage>/api/';
